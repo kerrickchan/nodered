@@ -1,0 +1,11 @@
+version: '3.8'
+
+name: 'nodered'
+services:
+  nodered:
+    extends:
+      file: docker-compose-nodered.yml
+      service: nodered
+
+volumes:
+  node_red_data:
